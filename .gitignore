@@ -1,5 +1,6 @@
 .idea/
 data/
+.ipynb_checkpoints/
 
 *.pdf
 *.svg
