@@ -7,6 +7,31 @@ Material for my talk "Approaching geovisualization and remote sensing with GeoVi
 
 ## Installation
 
-The best way to install the dependencies for this notebook is to create a conda environment. I use miniconda.
+The best way to install all the dependencies for this notebook is to create a conda environment.
 
-See instructions in the [GeoViews README](https://github.com/ioam/geoviews).
+You can use the `freeze.yml` file to create an identical environment I used:
+
+```shell
+conda env create --file freeze.yml
+```
+
+Otherwise you can create and activate a new conda environment with:
+
+```shell
+conda create --name geopython-2018 python=3.6
+source activate geopython-2018
+```
+
+And install all dependencies with:
+
+```shell
+conda install -c conda-forge -c ioam holoviews geoviews
+conda install xarray
+conda install -c conda-forge iris
+```
+
+You could freeze your environment with:
+
+```shell
+conda env export > freeze.yml
+```
