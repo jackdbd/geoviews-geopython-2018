@@ -30,8 +30,17 @@ conda install xarray
 conda install -c conda-forge iris
 ```
 
+
+## Other
+
 You could freeze your environment with:
 
 ```shell
 conda env export > freeze.yml
+```
+
+To remove this conda environment, run:
+
+```shell
+conda env remove -n geopython-2018
 ```
