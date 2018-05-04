@@ -1,5 +1,10 @@
 .idea/
-data/
+
+/data/*
+# unignore everything in WE_StatWohneinteilungen
+!/data/WE_StatWohneinteilungen/
+!/data/WE_StatWohneinteilungen/*
+
 .ipynb_checkpoints/
 
 *.pdf
