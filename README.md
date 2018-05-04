@@ -54,7 +54,8 @@ In order to run the notebook you will also need some data files.
 
 Here is where to find the data used in the notebook:
 
-- Shapefiles of Basel @ https://extract.bbbike.org/
+- Shapefiles of Basel districts @ https://wiki.openstreetmap.org/wiki/City_of_Basel_Suburb_Import (raw data, not the `.osm` file)
+- Shapefiles of Basel parks and cafes @ https://extract.bbbike.org/
 - netCDF file (Air quality) @ [NOAA](https://www.esrl.noaa.gov/psd/repository/entry/show?entryid=synth%3Ae570c8f9-ec09-4e89-93b4-babd5651e7a9%3AL25jZXAucmVhbmFseXNpcy5kZXJpdmVkL3N1cmZhY2UvYWlyLm1vbi5tZWFuLm5j)
 - Shapefile of American Indian/Alaska Native Areas/Hawaiian Home Lands @ [United States Censun Bureau](https://www.census.gov/geo/maps-data/data/cbf/cbf_aiannh.html)
 
