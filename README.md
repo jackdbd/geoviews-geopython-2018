@@ -62,6 +62,15 @@ Here is where to find the data used in the notebook:
 Create a `data` directory in the root of the repository and drop the files there.
 
 
+## Generate the slides from the notebook
+
+Open a terminal and type:
+
+```
+jupyter nbconvert Jupyter Notebook.ipynb --to slides --post serve
+```
+
+
 ## Other
 
 You could freeze your environment with:

@@ -1,0 +1,25 @@
+body {
+    background-color: #fff;
+    /* background-color: #8FB9E3; */
+    /* For WebKit (Safari, Chrome, etc) */
+    /* background: #8FB9E3 -webkit-gradient(linear, left top, left bottom, from(#144270), to(#8FB9E3)) no-repeat; */
+    /* Mozilla,Firefox/Gecko */
+    /* background: #8FB9E3 -moz-linear-gradient(top, #144270, #8FB9E3) no-repeat; */
+    /* IE 5.5 - 7 */
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#144270, endColorstr=#8FB9E3) no-repeat; */
+    /* IE 8 */
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#144270, endColorstr=#144270)" no-repeat; */
+}
+
+.reveal code {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 95%;
+    line-height: 100%;
+    white-space: pre;
+    white-space: pre-wrap;
+    background-color: #eee;
+    padding: 0.2em;
+    letter-spacing: -0.05em;
+    word-break: normal;
+    border-radius: 5px;
+}
