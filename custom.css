@@ -11,6 +11,10 @@ body {
     /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#144270, endColorstr=#144270)" no-repeat; */
 }
 
+.reveal table {
+    font-size: 1.4rem;
+}
+
 .reveal code {
     font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
     font-size: 95%;
