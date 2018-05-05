@@ -4,6 +4,10 @@ Material for my talk "Approaching geovisualization and remote sensing with GeoVi
 
 ![Basel Parks and Cafes](https://github.com/jackdbd/geoviews-geopython-2018/blob/master/screenshots/basel_parks_and_cafes.png "A Screenshot of this application, showing Basel Parks and Cafes.")
 
+![Basel Districts, Parks and Cafes](https://github.com/jackdbd/geoviews-geopython-2018/blob/master/screenshots/basel_districts_and_cafes.png "A Screenshot of this application, showing Basel Districts, Parks and Cafes.")
+
+![Basel cafes choropleth map](https://github.com/jackdbd/geoviews-geopython-2018/blob/master/screenshots/basel_cafes_choropleth.png "A Screenshot of this application, showing a choropleth map of Basel and its Districts, colored by the number Cafes in that district.")
+
 
 ## Installation
 
