@@ -1,5 +1,7 @@
 # geoviews-geopython-2018
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jackdbd/geoviews-geopython-2018/master)
+
 Material for my talk "Approaching geovisualization and remote sensing with GeoViews" @ [GeoPython 2018](http://2018.geopython.net/).
 
 ![Basel Parks and Cafes](https://github.com/jackdbd/geoviews-geopython-2018/blob/master/screenshots/basel_parks_and_cafes.png "A Screenshot of this application, showing Basel Parks and Cafes.")
@@ -13,10 +15,10 @@ Material for my talk "Approaching geovisualization and remote sensing with GeoVi
 
 The best way to install all the dependencies for this notebook is to create a conda environment. Either [Miniconda](https://conda.io/miniconda.html) or [Anaconda](https://repo.continuum.io/) are good.
 
-You can use the `freeze.yml` file included in this repository to create a conda environment identical to the one I used:
+You can use the `environment.yml` file included in this repository to create a conda environment identical to the one I used:
 
 ```shell
-conda env create --file freeze.yml
+conda env create --file environment.yml
 ```
 
 Otherwise you can create and activate a new conda environment with:
@@ -80,7 +82,7 @@ jupyter nbconvert Jupyter Notebook.ipynb --to slides --post serve
 You could freeze your environment with:
 
 ```shell
-conda env export > freeze.yml
+conda env export > environment.yml
 ```
 
 To remove this conda environment, run:
