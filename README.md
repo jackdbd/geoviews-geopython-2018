@@ -37,7 +37,7 @@ conda install -c conda-forge -c ioam holoviews geoviews --yes
 conda install xarray  -y
 conda install -c conda-forge iris -y
 conda install -c conda-forge iris-sample-data
-conda install -c conda-forge geopands -y
+conda install -c conda-forge geopandas -y
 ```
 
 You will also need to download the Bokeh sample data:
